@@ -214,6 +214,10 @@ h3 {
 .contact-form-style-03 {
   margin-bottom: -125px;
 }
+.register-form {
+  margin-bottom: 0px !important;
+}
+
 .interactive-banner-style-02.hover-box * {
   will-change: auto;
 }
