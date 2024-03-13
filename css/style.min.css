@@ -16761,7 +16761,7 @@ canvas {
 .team-style-04 figure:hover figcaption {
   bottom: 0;
 }
-.team-style-05 .team-content {
+/* .team-style-05 .team-content {
   position: absolute;
   bottom: 0;
   opacity: 0;
@@ -16801,8 +16801,8 @@ canvas {
 .team-style-05 .social-icon a:nth-child(5) {
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
-}
-.team-style-05:hover .team-content {
+} */
+/* .team-style-05:hover .team-content {
   opacity: 1;
 }
 .team-style-05:hover .team-content p {
@@ -16832,7 +16832,7 @@ canvas {
 .team-style-05:hover .social-icon a:nth-child(5) {
   -webkit-transition: all 1.4s ease;
   transition: all 1.4s ease;
-}
+} */
 .team-style-08 figure {
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
@@ -19495,4 +19495,41 @@ article {
 
     animation-duration:1s;
     animation-delay: 1.5s
+}
+.emp-name{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  transform: scale(1.06);
+  transition: all 0.3s linear;
+
+}
+.emp-img:hover .emp-name{
+  transform: scale(1.08) !important;
+  opacity: 0.7 !important;
+  /* transform: skewX(5deg); */
+}
+
+.team-style-05:hover .emp-name{
+    transition: all 0.3s linear;
+  opacity: 0.7 !important;
+}
+
+
+::placeholder{
+  color: white !important;
+}
+.date-p{
+  padding: 12px 5px 12px 0px;
+}
+
+::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+.emp-img-1 .emp-name{
+  transform: scale(1.7);
+}
+.emp-img-2 .emp-name{
+  transform: scale(1.3);
 }
